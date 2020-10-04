@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+<body>
+  
+<div class="container">
+  <h1>Online Dictionary</h1>
+  <p>Enter Your word into Serach Box </p>
+  <p></p>
+
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search"  id="search" name="search">
+      <div class="input-group-btn">
+        <button class="btn btn-default" type="submit"  id="txtword" name="txtword"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+
+</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+ <script type="text/javascript" src="{{ url_for('static', filename='my.js') }}"></script>
+  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+
+</body>
+</html>
